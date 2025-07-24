@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+    padding:10px;
+    overflow-y: hidden;
+    background-image: url("https://c0.wallpaperflare.com/preview/807/1021/167/chart-graph-business-finance.jpg");
+    background-size: cover;
+    margin-left:500px
+}
+
+#cal{
+    width:350px;
+    background-color: black;
+ border-radius: 20px;
+}
+
+#display{
+    width:345px;
+    height: 100px;
+    border:none;
+    background-color: rgba(68, 65, 65, 0.731);
+      font-size: 3rem;
+      color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    grid-gap: 10px;
+    padding:20px;
+    
+}
+
+
+button{
+    border-radius: 50%;
+    border:none;
+    background-color: gray;
+    padding:20px;
+    color:white;
+    font-weight: bold;
+    font-size:25px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(128, 128, 128, 0.737);
+}
+.add{
+    background-color: orange;
+}
+.add:hover{
+    background-color: rgba(255, 166, 0, 0.852);
+}
+.equal{
+    background-color: rgb(78, 78, 209);
+}
+.equal:hover{
+    background-color: blue
+}
